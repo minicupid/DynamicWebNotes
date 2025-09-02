@@ -124,16 +124,4 @@ Performance and attendance of the student has been such that course requirements
 If you are student with a disability who is requesting accommodations, please contact New York University’s Moses Center for Students with Disabilities at 212-998-980 or mosescsd@nyu.edu. You must be registered with CSD to receive accommodations. Information about the Moses Center can be found atwww.nyu.edu/csd. The Moses Center is located at 726 Broadway on the 2nd floor.
 
 ## Notable Dates
-
-_Sept 16, 2024_- Last day to drop/add on Albert for all students. Last day to drop Fall 2024 classes and not receive a grade of 'W'.
-
-_Oct 14 - 24, 2024_ - Fall Break, No classes scheduled / University Holiday
-_Oct 15 - 24, 2024_ - Legislative Monday - Classes meet according to Monday schedule on this Tuesday
-
-_Nov 25, 2024_ - Fall 2024 withdrawal deadline. Last day a student can withdraw from the course and receive a W.
-
-_Nov 28-32, 2024_ - Thanksgiving Recess
-
-_Dec 12 , 2024_ - Last day of Fall classes
-
-_Dec 16 , 2024_ - Exam Week Begins
+TBA
