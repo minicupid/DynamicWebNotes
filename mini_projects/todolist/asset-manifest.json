@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/DynamicWebNotes/mini_projs/todolist/static/css/main.4a36d0ee.css",
+    "main.js": "/DynamicWebNotes/mini_projs/todolist/static/js/main.9208f656.js",
+    "static/media/lace.png": "/DynamicWebNotes/mini_projs/todolist/static/media/lace.63a85e1911ed18769201.png",
+    "static/media/l_ribbon.png": "/DynamicWebNotes/mini_projs/todolist/static/media/l_ribbon.8359f502519f09666c14.png",
+    "static/media/r_ribbon.png": "/DynamicWebNotes/mini_projs/todolist/static/media/r_ribbon.ae642456ae2888b9f63b.png",
+    "index.html": "/DynamicWebNotes/mini_projs/todolist/index.html",
+    "main.4a36d0ee.css.map": "/DynamicWebNotes/mini_projs/todolist/static/css/main.4a36d0ee.css.map",
+    "main.9208f656.js.map": "/DynamicWebNotes/mini_projs/todolist/static/js/main.9208f656.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a36d0ee.css",
+    "static/js/main.9208f656.js"
+  ]
+}
