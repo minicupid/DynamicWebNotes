@@ -1,0 +1,67 @@
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 70vh;
+    width: 90vw;
+    margin: auto;
+    margin-top: 5rem;
+
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    max-width: 80%;
+    padding: 3rem;
+}
+.recipe-image {
+    margin: auto;
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.text-div {
+    width: 60%;
+    margin: auto;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.text-div h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.ingred-div, .steps-div {
+    width: 50%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: transparent;
+
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.ingred-div {
+    list-style-type: none;
+}
+
+h1 {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color:rgb(123, 205, 230);
+    text-underline-offset: 1rem;
+}
+h2 {
+    color: rgb(101, 165, 226);
+}
+
+li {
+    color: black;
+}
