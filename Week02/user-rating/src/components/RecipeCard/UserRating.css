@@ -1,0 +1,38 @@
+.user_rating {
+    max-width: 60%;
+    background-color: #ffffff;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.rating_btns {
+    display: flex;
+
+    gap: 1rem;
+
+}
+.total_hearts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    min-width: 20%;
+}
+
+.rating_toggle {
+    display: block;
+    justify-self: center;
+    align-self: center;
+    padding: 0.5rem;
+    margin: auto;
+    margin-top: 2rem;
+
+}
