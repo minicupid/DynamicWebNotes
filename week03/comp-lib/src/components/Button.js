@@ -18,11 +18,8 @@ const Button = (props) => {
         "text-red-500": outline && warning, 
         "text-pink-500": outline && success, 
     })}>
-        {children}
-    </button>
-}
 
-Button.propTypes = {
+        Button.propTypes = {
 
     checkVariationValue: ({primary, secondary, success, warning}) => {
         const count = Number(!!primary) // !! = turn into a true (this is saying not not primary = primary true)
@@ -38,5 +35,12 @@ Button.propTypes = {
     }
 
 }
+
+
+        {children}
+    </button>
+}
+
+
 
 export default Button
