@@ -6,6 +6,7 @@ import ButtonPage from './pages/ButtonPage'
 import AccordionPage from './pages/AccordionPage'
 import DropdownPage from './pages/DropdownPage'
 import Navbar from './components/Navbar'
+import TodoPage from './pages/TodoPage'
 
 // then your css and/or datafiles
 import './index.css'
@@ -22,6 +23,7 @@ const App = () => {
           <Route path = "/" element = { <ButtonPage/>} />
           <Route path = "/accordion" element = { <AccordionPage/>} />
           <Route path = "/dropdown" element = { <DropdownPage />} />
+          <Route path = "/todo" element = { <TodoPage />} />
         </Routes>
       </div>
     </div>

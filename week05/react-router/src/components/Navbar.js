@@ -33,7 +33,14 @@ const Navbar = () => {
         Dropdown
       </NavLink>
 
-      {/* add link here to component page you made for hw */}
+      <NavLink
+        to="/todo"
+        className={({ isActive }) =>
+          cx('text-blue-500', { 'font-bold decoration-solid': isActive })
+        }
+      >
+        Todo
+      </NavLink>
     </nav>
   )
 }

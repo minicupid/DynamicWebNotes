@@ -33,9 +33,6 @@ const Dropdown = (props) => {
 
   {/* fire on mount and every time the value of PieceOfState changes changes
     const useEffect(() => {}, [PieceOfState]) */}
-
-
-  }
   const handleClick = () => {
     setIsOpen(!isOpen)
   }
@@ -72,6 +69,7 @@ const Dropdown = (props) => {
       {isOpen && <Panel className="absolute top-full">{renderedOptions}</Panel>}
     </div>
   )
+}
 
 
 /* const Panel = (props) => {
