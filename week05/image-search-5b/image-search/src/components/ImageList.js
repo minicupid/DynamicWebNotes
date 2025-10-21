@@ -1,13 +1,16 @@
+import React from 'react'
 import ImageItem from './ImageItem'
 
 const ImageList = (props) => {
   const {images} = props
   return (
-    <div>
-      {images.map((img) => {
+  <div>
+    {
+      images.map((img) => {
         return <ImageItem key={img.id} image={img} />
-      })}
-    </div>
+      })
+      }
+  </div>
   )
 }
 

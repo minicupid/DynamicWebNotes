@@ -4,17 +4,17 @@ import axios from 'axios';
 // first argument is the url as a string
 // second argument is an options object
 
-const searchImages = async () => {
+const searchImages = async (term) => {
     const response = await axios.get('https://api.unsplash.com/search/photos', {
-        // inside headers is where u pass ur ACCESS key
+        // do not publish ur api key
         headers: {
-            Authorization: 'Client-ID k_WiDEdCLJ-qRhVAFvt_7fkdbssFG-Wes3-J6Qy9QPs',
+            Authorization: `Client-ID ${process.env.REACT_APP_API_KEY}`,
         },
-        params: { query: 'chickens' },
+        params: { query: term },
     });
 
-    return searchImages
     console.log(response.data.results);
+    return response.data.results;
 };
 
 export default searchImages;
