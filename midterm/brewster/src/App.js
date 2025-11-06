@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
-import mainbg from './assets/mainbg.jpeg'
+import mainbg from './assets/mainbg.jpg'
 
 // comps
 import Navbar from './components/Navbar'

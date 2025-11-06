@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import CupDisplay from '../components/CupDisplay';
 
-import blackbg from '../assets/blackbg.jpeg';
+import blackbg from '../assets/blackbg.jpg';
 
 const moodColors = {
     grateful: "#F6CFA5",
