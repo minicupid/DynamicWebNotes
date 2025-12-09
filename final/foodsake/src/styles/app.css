@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body {
+  font-family: 'Lexend', sans-serif;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.app-header {
+  margin-top: 3vh;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.app-header h1 {
+  margin: 0 0 10px 0;
+  font-size: 3rem;
+}

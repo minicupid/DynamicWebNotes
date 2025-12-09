@@ -1,0 +1,75 @@
+.item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.item-name {
+  font-weight: 500;
+  flex: 1;
+}
+
+.item-delete-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #999;
+  cursor: pointer;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+
+.item-delete-btn:hover {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.item-exp {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.item-status {
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+.item-status-fresh {
+  background-color: #e8f5e9;
+  color: #57a981;
+}
+
+.item-status-expiring {
+  background-color: #ffffff;
+  color: #e9bc60;
+}
+
+.item-status-expired {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.item-days {
+  color: #999;
+}
